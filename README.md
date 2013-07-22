@@ -1,6 +1,6 @@
 # Login
 
-Simple sleek looking login, feel free to contribute. [Demo]( http://labs.williamsyms.com/login_v2/)
+Simple sleek looking login, feel free to contribute. [Demo](http://bit.ly/1b8xZhI)
 
 ## Browser support
 
