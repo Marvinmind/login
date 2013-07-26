@@ -8,6 +8,8 @@ Simple sleek looking login, feel free to contribute. [Demo](http://bit.ly/1b8xZh
 
 The project is tested in Chrome and Firefox. It should work in the current stable releases of Chrome, Firefox, Safari as well as IE7 and up.
 
+<img src="https://raw.github.com/paulirish/browser-logos/master/all-desktop.png">
+
 ## History
 
 #### 0.1.0
