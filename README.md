@@ -12,6 +12,11 @@ The project is tested in Chrome and Firefox. It should work in the current stabl
 
 ## History
 
+#### 0.2.0
+- Refactor logOn.js to login.js
+- Handle "escape" key to cancel
+- Focus on first field of each forms
+
 #### 0.1.0
 - JQuery 2.0.3
 - Bootstrap 2.3.2
