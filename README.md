@@ -1,5 +1,7 @@
 # Login
 
+<a href="http://bit.ly/1b8xZhI" target="_blank"><img src="http://labs.williamsyms.com/login_v2/loginv2.png"></a>
+
 Simple sleek looking login, feel free to contribute. [Demo](http://bit.ly/1b8xZhI)
 
 ## Browser support
