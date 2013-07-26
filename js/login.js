@@ -1,5 +1,8 @@
 ﻿$(document).ready(function () {
 
+    /* On load focus username input login */
+    $('#username').focus();
+
     /* Keys pressed event handlers */
     $(document).keydown(function (key) {
         // "Enter" = 13
@@ -11,6 +14,12 @@
             } else if ($('#form-forgot').is(":visible")) {
                 $('#btnForgotSend').click();
             }
+        } else if (key.keyCode == '27') {
+            if ($('#form-register').is(":visible")) {
+                $('#btnRegisterCancel').click();
+            } else if ($('#form-forgot').is(":visible")) {
+                $('#btnForgotCancel').click();
+            }
         }
     });
 
@@ -18,6 +27,7 @@
         $('#form-signin').hide();
         $('#form-forgot').hide();
         $('#form-register').fadeIn(500);
+        $('#r-username').focus();
 
         // clear inputs
         $('#username').val("");
@@ -27,6 +37,7 @@
     $('#btnRegisterCancel').click(function () {
         $('#form-register').hide();
         $('#form-signin').fadeIn(500);
+        $('#username').focus();
 
         // clear inputs
         $('#r-username').val("");
@@ -39,6 +50,7 @@
         $('#form-signin').hide();
         $('#form-register').hide();
         $('#form-forgot').fadeIn(500);
+        $('#rec-email').focus();
 
         // clear inputs
         $('#username').val("");
@@ -48,6 +60,7 @@
     $('#btnForgotCancel').click(function () {
         $('#form-forgot').hide();
         $('#form-signin').fadeIn(500);
+        $('#username').focus();
 
         // clear inputs
         $('#rec-email').val("");
