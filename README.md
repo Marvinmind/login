@@ -10,17 +10,11 @@ The project is tested in Chrome and Firefox. It should work in the current stabl
 
 <img src="https://raw.github.com/paulirish/browser-logos/master/all-desktop.png">
 
-## History
+## Releases
 
-#### 0.2.0
-- Refactor logOn.js to login.js
-- Handle "escape" key to cancel
-- Focus on first field of each forms
-
-#### 0.1.0
-- JQuery 2.0.3
-- Bootstrap 2.3.2
-- [Ladda-bootstraped 0.3.1](https://github.com/wsyms/Ladda-bootstraped)
+#### [0.2.1](https://github.com/wsyms/login/releases/tag/0.2.1) 
+#### [0.2.0](https://github.com/wsyms/login/releases/tag/0.2.0)
+#### [0.1.0](https://github.com/wsyms/login/releases/tag/0.1.0)
 
 ## License
 
